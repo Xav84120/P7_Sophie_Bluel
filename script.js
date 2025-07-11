@@ -34,7 +34,6 @@ async function categories() {
   const categories = await response.json();
   console.log(categories);
 
-  // Ciblage de ma balise <h2> dans <section id="portfolio">
   const portfolio = document.getElementById("portfolio");
   console.log(portfolio);
   //   Creation de ma <div> qui contiendra mes boutons filtres et rattachement à portfolio
